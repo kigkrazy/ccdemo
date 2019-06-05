@@ -1,19 +1,19 @@
-apply plugin: 'com.android.application'
+apply from: rootProject.file('cc-settings-2.gradle')
+
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
 
-
     defaultConfig {
-        applicationId "com.reizx.ac"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-
+        if (project.ext.runAsApp) {
+            applicationId "com.reizx.ac"
+        }
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
