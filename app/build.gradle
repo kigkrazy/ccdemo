@@ -2,6 +2,7 @@ ext.mainApp = true  //设置为true，表示此module为主app module，一直�
 apply from: rootProject.file('cc-settings-2.gradle')
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
     compileSdkVersion 28

@@ -5,7 +5,7 @@ import com.billy.cc.core.component.CC
 
 class App : Application() {
     companion object {
-        var app: App? = null;
+        var app: App? = null
     }
 
     override fun onCreate() {
