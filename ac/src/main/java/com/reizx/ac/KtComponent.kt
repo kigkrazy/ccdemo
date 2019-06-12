@@ -13,7 +13,7 @@ import com.billy.cc.core.component.IComponent
 class KtComponent : IComponent {
 
     override fun getName(): String {
-        return "demo.ktComponent"
+        return "ac.ktComponent"
     }
 
     override fun onCall(cc: CC): Boolean {

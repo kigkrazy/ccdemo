@@ -39,6 +39,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    compile 'cn.hutool:hutool-all:4.5.11'
     //butterknife依赖
     annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0'
